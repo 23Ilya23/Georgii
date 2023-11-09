@@ -10,7 +10,7 @@ canvas.pack()
 grid = Grid(canvas)
 grid.display()
 
-p1 = Human(canvas)
+p1 = Human(canvas, 200, 500)
 p1.display()
  
 root.mainloop()
